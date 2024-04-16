@@ -1,0 +1,103 @@
+baseURL: "https://mt-consulting.com.ua/"
+languageCode: uk-UA
+title: МТ Консалтінг
+paginate: 5
+theme: PaperMod
+
+defaultContentLanguage: uk
+defaultContentLanguageInSubdir: false
+languages:
+  uk:
+    disabled: false
+    languageCode: uk-UA
+    languageDirection: ltr
+    languageName: Українська
+    weight: 1
+
+enableRobotsTXT: true
+enableInlineShortcodes: true
+enableEmoji: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  defaultTheme: auto
+  DateFormat: "2 January, 2006"
+  comments: false
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  profileMode:
+    enabled: false
+    title: ПрАТ "МТ Консалтінг"
+
+  homeInfoParams:
+    Title: "Вітаємо"
+    Content: |
+      Тут ви можете дізнатися:
+
+      • про компанію, реквізити та контактні дані
+
+      • річну інформацію емітента цінних паперів
+
+      • особливу інформацію
+
+      • інформацію про загальні збори акціонерів та їх порядок денний
+
+      • та інше про **Приватне акціонерне товариство "МТ Консалтінг"**.
+
+  fuseOpts:
+    isCaseSensitive: false
+    includeScore: true
+    includeMatches: true
+    findAllMatches: true
+    shouldSort: true
+    location: 0
+    distance: 1000
+    ignoreLocation: true
+    threshold: 0.0
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    disableHLJS: true
+
+  mainSections:
+    - info
+    - periodic
+    - special
+    - misc
+
+menu:
+  main:
+    - identifier: about
+      name: Про компанію
+      url: /about/
+      weight: 10
+    - identifier: info
+      name: Інформація для акціонерів та стейкхолдерів
+      url: /info/
+      weight: 20
+    - identifier: search
+      name: Пошук
+      url: /search/
+      weight: 100
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
