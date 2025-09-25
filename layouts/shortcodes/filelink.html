@@ -1,0 +1,7 @@
+{{- $name := .Get "name" -}}
+{{- $text := or (.Get "text") $name -}}
+{{- with .Page.Resources.GetMatch $name -}}
+<p class="filelink"><a href="{{ .RelPermalink }}" download>{{ $text }}</a></p>
+{{- else -}}
+<p class="filelink missing-file">Файл не знайдено: {{ $name }}</p>
+{{- end -}}
