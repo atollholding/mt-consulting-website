@@ -7,10 +7,10 @@ tags:
 draft: false
 ---
 
-[Завантажити файл](31167727_12.12.2022.doc)
+{{< filelink name="31167727_12.12.2022.doc" text="Завантажити файл" >}}
 
-[Кваліфікований електронний підпис на документі (печатка)](31167727_12.12.2022.doc.p7s)
+{{< filelink name="31167727_12.12.2022.doc.p7s" text="Кваліфікований електронний підпис на документі (печатка)" >}}
 
-[Report.xml](Report.xml)
+{{< filelink name="Report.xml" text="Report.xml" >}}
 
-[Report.xml.p7s](Report.xml.p7s)
+{{< filelink name="Report.xml.p7s" text="Report.xml.p7s" >}}

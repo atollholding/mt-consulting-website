@@ -8,4 +8,4 @@ tags:
 draft: false
 ---
 
-[Проект порядку денного](information-2018-MTC.pdf)
+{{< filelink name="information-2018-MTC.pdf" text="Проект порядку денного" >}}

@@ -8,4 +8,4 @@ tags:
 draft: false
 ---
 
-[Завантажити файл](mtc_report_2015.pdf)
+{{< filelink name="mtc_report_2015.pdf" text="Завантажити файл" >}}

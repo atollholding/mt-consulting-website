@@ -8,4 +8,4 @@ tags:
 draft: false
 ---
 
-[Порядок денний](mtc_agenda_2017_04_28.pdf)
+{{< filelink name="mtc_agenda_2017_04_28.pdf" text="Порядок денний" >}}
